@@ -96,7 +96,7 @@ function ServiceAreas() {
 
         <div className="services-card">
           <FaMapMarkerAlt className="area-icon"/>
-          <h3>Thiruvannamali</h3>
+          <h3>Tiruvannamalai</h3>
         </div>
 
         <div className="services-card">
