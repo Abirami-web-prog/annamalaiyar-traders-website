@@ -246,6 +246,50 @@ pointer-events:auto;
 .menu-icon{
 display:flex;
 }
+/* ================= MOBILE IMPROVEMENTS ================= */
+
+@media(max-width:768px){
+
+/* increase logo size */
+
+.logo{
+width:10% !important;
+height:auto !important;
+}
+
+/* make logo container align properly */
+
+.logo-container{
+gap:12px;
+}
+
+/* slightly reduce title size so logo gets space */
+
+.navbar h2{
+font-size:19px;
+}
+
+/* make hamburger icon clearer */
+
+.menu-icon{
+width:34px;
+height:28px;
+}
+
+/* thicker lines for visibility */
+
+.menu-icon span{
+height:3.5px;
+background:white;
+}
+
+/* spacing improvement */
+
+.navbar{
+padding:14px 6%;
+}
+
+}
 
 .navbar ul{
 position:fixed;
