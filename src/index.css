@@ -396,7 +396,7 @@ line-height:1.8;
 }
 
 /* ================= HERO ================= */
-
+/* 
 .hero{
 height:90vh;
 display:flex;
@@ -434,6 +434,68 @@ font-weight:500;
 transition:all .3s ease;
 box-shadow:0 8px 20px rgba(47,128,237,0.4);
 }
+
+.hero button:hover{
+background:#1f6fe0;
+transform:translateY(-2px) scale(1.06);
+box-shadow:0 12px 30px rgba(47,128,237,0.6);
+} */
+ .hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background-size:cover;
+background-position: right center;
+position: relative;
+overflow: hidden;
+}
+
+
+
+ .hero-content{
+max-width:750px;
+ position: relative;
+ z-index: 2;
+} 
+
+
+
+
+.hero h1{
+font-size:48px;
+
+margin-bottom:20px;
+
+color:white;
+text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+
+.hero p{
+font-size:18px;
+
+margin-bottom:30px;
+/* margin-bottom:20px; */
+
+opacity:.9;
+color:white;
+text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
+}
+
+.hero button{
+padding:14px 32px;
+background:#2f80ed;
+border:none;
+border-radius:8px;
+color:white;
+cursor:pointer;
+font-size:16px;
+font-weight:500;
+transition:all .3s ease;
+box-shadow:0 8px 20px rgba(47,128,237,0.4);
+}
+
 
 .hero button:hover{
 background:#1f6fe0;
