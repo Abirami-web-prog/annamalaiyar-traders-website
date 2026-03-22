@@ -452,21 +452,6 @@ position: relative;
 transition: background-image 0.5s ease  ;
 }
 
-/* Dark overlay for better text visibility */
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-/* Optional: smooth text animation */
-.hero h1, .hero p, .hero button {
-  animation: fadeInUp 1s ease;
-}
 
 @keyframes fadeInUp {
   from {
