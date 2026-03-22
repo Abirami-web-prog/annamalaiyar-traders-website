@@ -460,7 +460,7 @@ transition: background-image 0.5s ease  ;
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 /* Optional: smooth text animation */
