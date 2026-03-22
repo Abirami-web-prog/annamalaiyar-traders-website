@@ -453,16 +453,7 @@ transition: background-image 0.5s ease  ;
 }
 
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+
 
  .hero-content{
 max-width:750px;
